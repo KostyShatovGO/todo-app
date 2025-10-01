@@ -1,0 +1,7 @@
+[service]
+name = "todo-app"
+start = "go run ./cmd/main.go"
+
+[env]
+PORT = "8000"
+
